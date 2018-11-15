@@ -58,17 +58,4 @@ class Song
   attr_accessor :name, :artist, :genre
 end 
 
-the_day = Song.new("The Day", "John Smith", "classic")
-tomorow = Song.new("Tomorow", "John Smith", "classic")
-a_yearz = Song.new("A Yearz", "Adam Johns", "oldtime")
-a_rabess = Song.new("Arabess", "Habibi Watan", "Rai")
-cus_umak = Song.new("Cus Ummach", "Haifa Wehbe", "Rai")
 
-puts the_day.name
-puts the_day.artist
-puts the_day.genre
-puts Song.count
-Song.genres
-Song.artists
-Song.genre_count
-Song.artist_count
